@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Publish preflight: fail before `npm publish` ships a broken bundle.
+ * Release preflight: fail before a release ships a broken bundle.
  *
  * Checks the manifest a DSH host reads, the files `files` promises, the syntax
  * of both halves, and the locale/icon display resources. Repository metadata is
