@@ -6,6 +6,10 @@ English | [中文](README.zh.md)
 
 A full-width row shows the balance with a status mark: amber ⚠ while the total (top-up + bonus) is below the threshold, green ✓ above it. Click the mark to change the threshold (default 20, saved locally). Hover for the breakdown; a collapsed sidebar shows a round wallet button instead. Hidden while signed out.
 
+![Balance row](assets/balance-ok.webp)
+![Below the threshold](assets/balance-low.webp)
+![Threshold panel](assets/threshold.webp)
+
 ## Install
 
 Settings → Plugins → Install:
