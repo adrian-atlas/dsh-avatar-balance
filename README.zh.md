@@ -1,6 +1,12 @@
 # dsh-avatar-balance —— DeepSeek 余额
 
+[English](README.md) | 中文
+
 在侧边栏底部、账号头像那一行的正上方显示 DeepSeek 账户余额 —— 不用再点「设置 → 账户」。
+
+![布局示意](assets/layout.svg)
+
+*布局示意（非截图）：余额行占满侧边栏底部，紧贴在 DSH 自带的账号行正上方。*
 
 ```
 侧边栏底部（与头像行同宽，占满整行）

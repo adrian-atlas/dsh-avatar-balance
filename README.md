@@ -1,6 +1,12 @@
 # dsh-avatar-balance
 
+English | [中文](README.zh.md)
+
 Your DeepSeek account balance, right above the account avatar in the DeepSeek Harness sidebar. No more opening **Settings → Account** just to check it.
+
+![Placement sketch](assets/layout.svg)
+
+*Layout sketch, not a screenshot: the balance row fills the sidebar foot, directly above the shipped account row.*
 
 ```
 sidebar foot (same width as the account row)

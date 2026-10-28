@@ -20,6 +20,7 @@
     "README.md",
     "README.zh.md",
     "locale/*.json",
+    "assets/*.svg",
     "icon.svg"
   ],
   "dsh": {
