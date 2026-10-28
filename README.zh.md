@@ -49,7 +49,7 @@
 github:adrian-atlas/dsh-avatar-balance
 ```
 
-（以后上 npm 后也可以直接搜 `dsh-avatar-balance`。桌面版由 Electron 应用管理 profile，这是官方路径。）
+桌面版由 Electron 应用管理 profile，这是官方路径。
 
 **手动 / 离线：**
 
@@ -95,10 +95,6 @@ node install.mjs --uninstall
 node scripts/preflight.mjs   # 检查清单/语法/资源
 git tag v1.0.0 && git push --tags
 ```
-
-以后如果想进官方插件市场的「搜索 + 一键安装」，再补一个 npm 账号发布即可（同一步骤，多一条 `npm publish`）。
-
-收录进插件市场：<https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/contributing.md>
 
 ## License
 

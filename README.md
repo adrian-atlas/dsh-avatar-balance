@@ -44,7 +44,7 @@ The wallet belongs to your DeepSeek account, not to a session: every session and
 
 ## Install
 
-**Settings → Plugins → Install**, then either search for `dsh-avatar-balance` once it is on npm, or paste the repository spec:
+**Settings → Plugins → Install**, then paste the repository spec:
 
 ```
 github:adrian-atlas/dsh-avatar-balance
@@ -73,7 +73,7 @@ The script is idempotent and backs up files it edits:
 | `index.js` | Host half; an empty `apply()` |
 | `cordis.patch.yml` | The Loader row this package contributes |
 | `install.mjs` | Manual install / uninstall for an app-managed profile |
-| `scripts/preflight.mjs` | `npm publish` guard: manifest, files, syntax, locale, icon |
+| `scripts/preflight.mjs` | Release guard: manifest, files, syntax, locale, icon |
 | `locale/{zh,en}.json` | Title and description shown in the Plugins page |
 | `icon.svg` | Plugin icon |
 
@@ -90,7 +90,7 @@ The script is idempotent and backs up files it edits:
 
 DeepSeek Harness 0.2.1-rc.3 or newer (`engines.dsh`), signed in with a DeepSeek account. API-key-only setups have no wallet to read, so the row stays hidden.
 
-## Publish
+## Release
 
 The source of truth is the GitHub repository <https://github.com/adrian-atlas/dsh-avatar-balance>, which is also the install spec above.
 
@@ -98,10 +98,6 @@ The source of truth is the GitHub repository <https://github.com/adrian-atlas/ds
 node scripts/preflight.mjs   # manifest, files, syntax, locale and icon checks
 git tag v1.0.0 && git push --tags
 ```
-
-An npm release (`npm publish`) can be added later; it makes the plugin searchable in the Plugins page and listable in the community catalog.
-
-To be listed in the community catalog: <https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/contributing.md>
 
 ## License
 
