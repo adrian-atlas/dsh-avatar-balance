@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek 余额",
+    "description": "在侧边栏底部、账号头像旁边显示 DeepSeek 账户余额，并支持一键刷新。"
+  }
+}

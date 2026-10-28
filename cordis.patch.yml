@@ -1,0 +1,4 @@
+# dsh-avatar-balance: one Loader row; the Client half owns the rendering.
+- insert:
+    - id: avatar-balance
+      name: 'dsh-avatar-balance'

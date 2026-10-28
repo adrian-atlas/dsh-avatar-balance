@@ -1,0 +1,63 @@
+{
+  "name": "dsh-avatar-balance",
+  "version": "1.0.0",
+  "description": "DeepSeek account balance beside the sidebar account avatar in DeepSeek Harness, with a low-balance colour mark and a configurable threshold.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "install.mjs",
+    "scripts/preflight.mjs",
+    "LICENSE",
+    "README.md",
+    "README.zh.md",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "balance",
+    "billing",
+    "sidebar"
+  ],
+  "author": "Adrian.Luo (https://github.com/adrian-atlas)",
+  "engines": {
+    "dsh": ">=0.2.1-rc.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": false
+  },
+  "scripts": {
+    "prepublishOnly": "node scripts/preflight.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian-atlas/dsh-avatar-balance.git"
+  },
+  "homepage": "https://github.com/adrian-atlas/dsh-avatar-balance#readme",
+  "bugs": {
+    "url": "https://github.com/adrian-atlas/dsh-avatar-balance/issues"
+  }
+}
