@@ -1,6 +1,6 @@
 {
   "name": "dsh-avatar-balance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DeepSeek account balance beside the sidebar account avatar in DeepSeek Harness, with a low-balance colour mark and a configurable threshold.",
   "type": "module",
   "exports": {
